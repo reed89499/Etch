@@ -1,0 +1,17 @@
+#container {
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+#container > div {
+    display:flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+div > span {
+    flex-grow: 1;
+    background-color: red;
+}
